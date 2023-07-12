@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ssm:PutParameter",
+                "ssm:LabelParameterVersion",
+                "ssm:DeleteParameter",
+                "ssm:UnlabelParameterVersion",
+                "ssm:DescribeParameters",
+                "ssm:GetParameterHistory",
+                "ssm:ListTagsForResource",
+                "ssm:GetParametersByPath",
+                "ssm:GetParameters",
+                "ssm:GetParameter",
+                "ssm:DeleteParameters"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
